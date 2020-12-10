@@ -1,0 +1,10 @@
+com/rabbitking81/springrecipes/shop/Main.java
+ com.rabbitking81.springrecipes.shop.Main
+com/rabbitking81/springrecipes/shop/config/ShopConfiguration.java
+ com.rabbitking81.springrecipes.shop.config.ShopConfiguration
+com/rabbitking81/springrecipes/shop/Disc.java
+ com.rabbitking81.springrecipes.shop.Disc
+com/rabbitking81/springrecipes/shop/Product.java
+ com.rabbitking81.springrecipes.shop.Product
+com/rabbitking81/springrecipes/shop/Battery.java
+ com.rabbitking81.springrecipes.shop.Battery
