@@ -1,0 +1,10 @@
+com/rabbitking81/springrecipes/Sequence.java
+ com.rabbitking81.springrecipes.Sequence
+com/rabbitking81/springrecipes/SequenceImpl.java
+ com.rabbitking81.springrecipes.SequenceImpl
+com/rabbitking81/springrecipes/Main.java
+ com.rabbitking81.springrecipes.Main
+com/rabbitking81/springrecipes/config/SequenceGeneratorConfiguration.java
+ com.rabbitking81.springrecipes.config.SequenceGeneratorConfiguration
+com/rabbitking81/springrecipes/SequenceDao.java
+ com.rabbitking81.springrecipes.SequenceDao
