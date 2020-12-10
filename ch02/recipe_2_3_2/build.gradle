@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = "com.rabbitking81.springrecipes.sequence.Main"
+
+group 'com.rabbitking81.springrecipes'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    baseName = "${rootProject.name}"
+    version = "0.0.1-SNAPSHOT"
+    manifest {
+        attributes "Implementation-Title": "${rootProject.name}",
+                "Implementation-Version": version,
+                "Main-Class": "${mainClassName}"
+    }
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+ext {
+    springVersion = '5.0.5.RELEASE'
+}
+
+dependencies {
+    compile "org.springframework:spring-core:${springVersion}"
+    compile "org.springframework:spring-context:${springVersion}"
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}
