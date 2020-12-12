@@ -1,0 +1,12 @@
+com/rabbitking81/springrecipes/sequence/SequenceGenerator.java
+ com.rabbitking81.springrecipes.sequence.SequenceGenerator
+com/rabbitking81/springrecipes/sequence/config/PrefixConfiguration.java
+ com.rabbitking81.springrecipes.sequence.config.PrefixConfiguration
+com/rabbitking81/springrecipes/sequence/DatePrefixGenerator.java
+ com.rabbitking81.springrecipes.sequence.DatePrefixGenerator
+com/rabbitking81/springrecipes/sequence/PrefixGenerator.java
+ com.rabbitking81.springrecipes.sequence.PrefixGenerator
+com/rabbitking81/springrecipes/sequence/config/SequenceConfiguration.java
+ com.rabbitking81.springrecipes.sequence.config.SequenceConfiguration
+com/rabbitking81/springrecipes/sequence/Main.java
+ com.rabbitking81.springrecipes.sequence.Main
